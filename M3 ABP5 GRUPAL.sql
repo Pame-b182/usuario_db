@@ -51,7 +51,7 @@ select * from ingreso_usuario;
 
 -- ///////////// PARTE 5 : JUSTIFICACIÓN DE CADA TIPO DE DATOS /////////////
 /* id_usuario|id_ingreso| int unsigned not null  auto_increment primary key: Se aplica la restricción primary key al id_usuario|id_ingreso para que sea el identificador
-único no negatico ni nulo de la "tabla usuario"|"ingreso_usuario" respectivamente. Además, se deja auto incrementable para que al insertar un nuevo usaurio el id aumente automáticamente. */ 
+único no negativo ni nulo de la "tabla usuario"|"ingreso_usuario" respectivamente. Además, se deja auto incrementable para que al insertar un nuevo usaurio el id aumente automáticamente. */ 
 
 /* nombre varchar(50) not null: Dado que los nombres se escriben como texto, se le da el tipo de dato varchar y largo 50 para que quepan en toda su longitud. */
 
